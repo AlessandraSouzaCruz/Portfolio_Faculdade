@@ -1,0 +1,48 @@
+/* Corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Menu de navegação */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6ba4a3;
+    padding: 10px 0;
+}
+
+/* Links do menu */
+.menu a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Seções */
+.section {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Títulos das seções */
+.section h2 {
+    font-weight: bold;
+    color: rgb(13, 84, 90);
+}
+
+/* imagem */
+.img {
+    width: 100px; /*  largura */
+    height: 100px; /*  altura */
+    border-radius: 50%; /* borda arredondada */
+    border: 5px solid #3e6e6e; 
+}
+
+/* Centraliza o texto */
+.texto-centralizado {
+    text-align: center; 
+}
